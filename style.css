@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url(Montserrat-SemiBold.otf);
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'montserrat';
+  transition: all 1s ease
+}
+
+h1{
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+
+input{
+  background: transparent;
+  border: none;
+  outline: none!important;
+  display: block;
+  margin: 10px auto;
+  width: 92%;
+  border-bottom: 2.5px solid gray;
+  padding: .8rem;
+  font-size:  .9rem;
+}
+
+input:focus{
+  background: #eee;
+  border-color: darkslateblue;
+}
+
+
+
+a{
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  background: #eee;
+  margin: 5px 10px;
+  border-radius: 3px;
+  color: #555;
+  font-weight: 900;
+  font-size: .9rem;
+}
+
+a::before{
+  content: '\11BC';
+  font-size: .7rem;
+  color: darkslateblue;
+  padding: 10px;
+  margin-right: 10px;
+}
